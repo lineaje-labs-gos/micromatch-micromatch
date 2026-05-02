@@ -1,7 +1,7 @@
 {
   "name": "micromatch",
   "description": "Glob matching for javascript/node.js. A replacement and faster alternative to minimatch and multimatch.",
-  "version": "4.0.2-lineaje-01",
+  "version": "4.0.8-lineaje-01",
   "homepage": "https://github.com/micromatch/micromatch",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "contributors": [
@@ -44,7 +44,7 @@
   },
   "dependencies": {
     "braces": "^3.0.1",
-    "picomatch": "^2.0.5"
+    "picomatch": ">=2.3.1"
   },
   "devDependencies": {
     "fill-range": "^7.0.1",
@@ -121,5 +121,11 @@
       "minimatch",
       "multimatch"
     ]
+  },
+  "overrides": {
+    "picomatch": ">=2.3.1"
+  },
+  "resolutions": {
+    "picomatch": ">=2.3.1"
   }
 }
