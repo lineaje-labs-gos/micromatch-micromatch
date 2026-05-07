@@ -45,7 +45,7 @@
   },
   "dependencies": {
     "braces": "^3.0.3",
-    "picomatch": "^2.3.1"
+    "picomatch": ">=2.3.2"
   },
   "devDependencies": {
     "fill-range": "^7.0.1",
@@ -122,5 +122,11 @@
       "minimatch",
       "multimatch"
     ]
+  },
+  "overrides": {
+    "picomatch": ">=2.3.2"
+  },
+  "resolutions": {
+    "picomatch": ">=2.3.2"
   }
 }
